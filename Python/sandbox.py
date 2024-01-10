@@ -1,3 +1,6 @@
+from flask import Flask
+
+import flask
 import http.client
 import json
 import os
@@ -43,8 +46,8 @@ def getValuesFromJSON():
 
 
 #finderCall()
-getValuesFromJSON()
+#getValuesFromJSON()
 
-print(os.getcwd())
+print(flask.__version__)
 
 
